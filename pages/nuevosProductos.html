@@ -12,6 +12,7 @@
       rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
       crossorigin="anonymous"
     >
+    <link rel="stylesheet" href="./../styles/styles.css">
 
 </head>
 
@@ -68,6 +69,7 @@
                   placeholder="Nombre..." 
                   required
                 >
+                <small></small>
               </div>
               <div class="mb-3">
                 <label class="form-label" for="description">Descripcion: </label>
@@ -79,6 +81,7 @@
                   placeholder="Descripcion..." 
                   required
                 >
+                <small></small>
               </div>
               <div class="mb-3">
                 <label class="form-label" for="direction">Dirección: </label>
@@ -90,6 +93,7 @@
                   placeholder="Direction..." 
                   required
                 >
+                <small></small>
               </div>
               <div class="mb-3">
                 <label class="form-label" for="image">URL Imagen: </label>
@@ -101,9 +105,10 @@
                   placeholder="URL Image..." 
                   required
                 >
+                <small></small>
               </div>
               <div class="mb-4">
-                <input class="btn btn-lg btn-success" type="submit" value="Guardar">
+                <input class="btn btn-lg btn-success" id="submit-btn" type="submit" value="Guardar">
               </div>
             </form>
           </article>
@@ -117,5 +122,7 @@
       crossorigin="anonymous"
     >
     </script>
+
+    <script src="./../js/validations.js"></script>
 </body>
 </html>
